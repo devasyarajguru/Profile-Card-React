@@ -1,5 +1,13 @@
-import linkedln from "../images/linkedin.svg";
-import envelope from "../images/envelope.svg";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import styled from 'styled-components';
+
+// const StyledLinkedin = styled(LinkedInIcon)
+// {
+//     ` 
+//         font-size: 2rem;
+//         color:red;
+//     `
+// }
 export default function Main()
 {
     return(
@@ -18,12 +26,14 @@ export default function Main()
 
                 {/* Link */}    
                 <span className="span-two content-main">
-                    Website Link
+                   <a>Website Link</a> 
                 </span>
 
-                {/* Buttons */}    
-                <button className="btn-main social-btn"><img src={linkedln} alt="mySVG" className="svgs svg-linkedin"/></button>
-                <button className="btn-main social-btn"><img src={envelope} alt="mySVG" className="svgs svg-email"/></button>
+                {/* Buttons */}
+                <div className="btn-container">
+                <button className="btn-linkedin social-btn"><LinkedInIcon fontSize='large' className='linkedin'></LinkedInIcon><span>Linkedin</span></button>
+                <button className="btn-email social-btn"></button>
+                </div>
 
                 {/* About & Interest */}    
                 <div className="about-interest-main">

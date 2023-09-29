@@ -7,6 +7,7 @@ export default function Footer()
     return(
         <>
             <div className="footer-container">
+                <hr></hr>
                 <img src={twitter}></img>
                 <img src={Github}></img>
                 <img src={Instagram}></img>

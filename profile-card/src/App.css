@@ -12,9 +12,83 @@ body
     align-items: center;
 }
 
+.Heading-card-name
+{
+    text-align: center;
+}
 .app-container
 {
+    margin:50px;
     width: 500px;
-    height: 800px;
+    height: 100vh;
     background-color: rgb(0,0,40);
+}
+
+.container-main
+{
+    padding: 5px;
+}
+
+.h3-main
+{
+    text-align: center;
+    font-size: 35px;
+}
+
+.content-main
+{
+    display: block;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.span-one{
+    margin-top: -34px;
+    font-size: 25px;
+    color:chocolate;
+}
+
+.span-two
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: brown;
+}
+
+.btn-container
+{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(7, auto); /* Adjust the number of columns as needed */
+    gap: 0px;
+}
+
+.social-btn
+{
+    width: 160px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius:-2px;
+}
+
+.btn-linkedin
+{
+    display: flex;
+    font-size: 20px;
+    background-color: #0077B5;
+}
+
+.linkedin{
+    margin-right: 7px;
+}
+
+.btn-linkedin span
+{
+    text-align: center;
+    font-size: 23px;
+}
+.btn-email
+{
+    background-color: white;
 }

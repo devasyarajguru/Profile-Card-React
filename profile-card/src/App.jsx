@@ -7,8 +7,9 @@ export default function App()
 {
     return (
       <>
-        <h1>Dev</h1>
+          <h1 className='Heading-card-name'>Business Profile Card</h1>
           <div className="app-container">
+          
               <Header /> 
               <Main />
               <Footer />
