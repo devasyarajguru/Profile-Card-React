@@ -1,17 +1,16 @@
-import twitter from "../images/twitter-x.svg";
-import Github from "../images/github.svg";
-import Instagram from "../images/instagram.svg";
-import Facebook from "../images/facebook.svg";
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
 export default function Footer()
 {
     return(
         <>
             <div className="footer-container">
-                <hr></hr>
-                <img src={twitter}></img>
-                <img src={Github}></img>
-                <img src={Instagram}></img>
-                <img src={Facebook}></img>
+               <TwitterIcon   fontSize='large' className='footer-icons'/>
+               <FacebookIcon   fontSize='large' className='footer-icons'/>
+               <GitHubIcon  fontSize='large' className='footer-icons' />
+               <InstagramIcon  fontSize='large'  className='footer-icons'/>
             </div>
         </>
     )

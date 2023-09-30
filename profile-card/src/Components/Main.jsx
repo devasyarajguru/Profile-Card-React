@@ -1,4 +1,5 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 // import styled from 'styled-components';
 
 // const StyledLinkedin = styled(LinkedInIcon)
@@ -24,16 +25,11 @@ export default function Main()
                     Frontend Developer
                 </span>
 
-                {/* Link */}    
-                <span className="span-two content-main">
-                   <a>Website Link</a> 
-                </span>
-
                 {/* Buttons */}
-                <div className="btn-container">
-                <button className="btn-linkedin social-btn"><LinkedInIcon fontSize='large' className='linkedin'></LinkedInIcon><span>Linkedin</span></button>
-                <button className="btn-email social-btn"></button>
-                </div>
+                        <div className="btn-container">
+                        <button className="btn-linkedin social-btn"><LinkedInIcon fontSize='large' className='linkedin'></LinkedInIcon><span><a href="https://www.linkedin.com/in/devasya-rajguru-1a38b0211/">Linkedin</a></span></button>
+                        <button className="btn-email social-btn"><EmailIcon fontSize='large' className='email'/><span><a href="">Email</a></span></button>
+                        </div>
 
                 {/* About & Interest */}    
                 <div className="about-interest-main">
