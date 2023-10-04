@@ -1,8 +1,8 @@
 // import React from "react"
-import Header from './Components/Header.js';
+import Header from './Components/Header.jsx';
 import './App.css';
-import Main from './Components/Main.js';
-import Footer from './Components/Footer.js';
+import Main from './Components/Main.jsx';
+import Footer from './Components/Footer.jsx';
 export default function App()
 {
     return (

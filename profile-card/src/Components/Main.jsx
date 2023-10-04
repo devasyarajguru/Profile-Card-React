@@ -24,6 +24,7 @@ export default function Main()
                 <span className="span-one content-main">
                     Frontend Developer
                 </span>
+                
 
                 {/* Buttons */}
                         <div className="btn-container">
